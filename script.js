@@ -2,14 +2,6 @@
 document.addEventListener('DOMContentLoaded', () => {
   lucide.createIcons();
 
-  // Show the sticky CTA banner with a springy entrance after a short delay
-  const banner = document.getElementById('cta-banner');
-  if (banner) {
-    setTimeout(() => {
-      banner.classList.add('is-visible');
-    }, 900);
-  }
-
   // Parallax on hero background blobs
   const hero = document.getElementById('hero');
   if (hero && window.matchMedia('(prefers-reduced-motion: no-preference)').matches) {

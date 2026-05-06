@@ -153,7 +153,6 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   min-height: 100dvh;
-  padding-bottom: 88px; // clearance for sticky banner
 }
 
 a {
@@ -310,7 +309,8 @@ svg {
   animation: fade-in-up 0.55s 0.5s ease both, bounce-y 2.4s 1.2s ease-in-out infinite;
   white-space: nowrap;
 
-  i, svg {
+  i,
+  svg {
     width: 18px;
     height: 18px;
   }
@@ -321,8 +321,15 @@ svg {
 }
 
 @keyframes bounce-y {
-  0%, 100% { transform: translateX(-50%) translateY(0); }
-  50%       { transform: translateX(-50%) translateY(6px); }
+
+  0%,
+  100% {
+    transform: translateX(-50%) translateY(0);
+  }
+
+  50% {
+    transform: translateX(-50%) translateY(6px);
+  }
 }
 
 .hero__badge {
@@ -367,7 +374,7 @@ svg {
   color: var(--text-tertiary);
   max-width: 600px;
   margin-inline: auto;
-  margin-bottom: var(--sp-5xl);
+  margin-bottom: var(--sp-3xl);
   animation: fade-in-up 0.55s 0.16s ease both;
 }
 
@@ -436,6 +443,8 @@ svg {
   border: 1px solid var(--border-light);
   display: flex;
   flex-direction: column;
+  align-items: center;
+  text-align: center;
   gap: var(--sp-lg);
   transition: box-shadow 0.25s ease, transform 0.25s ease, border-color 0.25s ease;
 
@@ -509,8 +518,10 @@ svg {
 }
 
 .prof-card__scenario {
-  display: inline-flex;
+  display: flex;
+  justify-content: center;
   align-items: center;
+  width: 100%;
   gap: var(--sp-xs);
   padding: var(--sp-xxs) var(--sp-md);
   border-radius: var(--r-full);
@@ -518,9 +529,9 @@ svg {
   color: var(--primary-20);
   font-size: var(--fs-body-s);
   font-weight: 600;
-  align-self: flex-start;
 
-  i, svg {
+  i,
+  svg {
     width: 13px;
     height: 13px;
     flex-shrink: 0;
@@ -614,22 +625,12 @@ svg {
 
 
 // ============================================================
-// 9. STICKY CTA BANNER
+// 9. FINAL CTA SECTION
 // ============================================================
 .cta-banner {
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  z-index: 200;
-  padding: var(--sp-lg) var(--sp-xl);
-  transform: translateY(110%);
-  // Springy entrance via cubic-bezier
-  transition: transform 0.40s cubic-bezier(0.34, 1.56, 0.64, 1);
-
-  &.is-visible {
-    transform: translateY(0);
-  }
+  padding: var(--sp-5xl) var(--sp-xl);
+  background-color: var(--primary-95);
+  border-top: 1px solid var(--border-light);
 
   .container {
     padding: 0;
@@ -637,18 +638,16 @@ svg {
 }
 
 .cta-banner__inner {
-  background-color: rgba(255, 255, 255, 0.88);
-  backdrop-filter: blur(20px) saturate(180%);
-  -webkit-backdrop-filter: blur(20px) saturate(180%);
-  border: 1px solid rgba(255, 255, 255, 0.6);
+  background-color: var(--bg-card);
+  border: 1px solid var(--border-light);
   border-radius: var(--r-xl);
-  padding: var(--sp-xl);
-  box-shadow: var(--shadow-banner);
+  padding: var(--sp-2xl);
+  box-shadow: var(--shadow-card);
   display: flex;
   align-items: center;
   justify-content: space-between;
   gap: var(--sp-xl);
-  max-width: 720px;
+  max-width: 800px;
   margin-inline: auto;
 }
 
@@ -788,10 +787,6 @@ svg {
 // 13. RESPONSIVE — Desktop (≥ 1024px)
 // ============================================================
 @media (min-width: 1024px) {
-  body {
-    padding-bottom: 96px;
-  }
-
   .hero__title {
     font-size: var(--fs-display-s);
     line-height: var(--lh-display-s);
