@@ -1,0 +1,138 @@
+[
+  {
+    "imgSrc": "_media/si.webp",
+    "imgAlt": "แพทยสภา",
+    "title": "แพทย์",
+    "subtitle": "ตรวจสอบกับฐานข้อมูล<br> แพทยสภา",
+    "link": "https://checkmd.tmc.or.th/v3",
+    "ariaLabel": "ตรวจสอบแพทย์ที่แพทยสภา"
+  },
+  {
+    "imgSrc": "_media/pt.webp",
+    "imgAlt": "สภากายภาพบำบัด",
+    "title": "นักกายภาพ",
+    "subtitle": "ตรวจสอบกับฐานข้อมูล<br> สภากายภาพบำบัด",
+    "link": "https://pt.or.th/cpte/PTLicense.php",
+    "ariaLabel": "ตรวจสอบนักกายภาพบำบัดที่สภากายภาพบำบัด"
+  },
+  {
+    "imgSrc": "_media/dt.webp",
+    "imgAlt": "ทันตแพทยสภา",
+    "title": "ทันตแพทย์",
+    "subtitle": "ตรวจสอบกับฐานข้อมูล<br> ทันตแพทยสภา",
+    "link": "https://dentalcouncil.or.th/FindDentist",
+    "ariaLabel": "ตรวจสอบทันตแพทย์ที่ทันตแพทยสภา"
+  },
+  {
+    "imgSrc": "_media/ns.webp",
+    "imgAlt": "สภาการพยาบาล",
+    "title": "พยาบาลวิชาชีพ",
+    "subtitle": "ตรวจสอบกับฐานข้อมูล<br>สภาการพยาบาล",
+    "link": "https://www.tnmc.or.th/news/50",
+    "ariaLabel": "ตรวจสอบพยาบาลวิชาชีพที่สภาการพยาบาล"
+  },
+  {
+    "imgSrc": "_media/py.webp",
+    "imgAlt": "สภาเภสัชกรรม",
+    "title": "เภสัชกร",
+    "subtitle": "ตรวจสอบกับฐานข้อมูล<br> สภาเภสัชกรรม",
+    "link": "https://www.pharmacycouncil.org/index.php?option=com_pharmacist_list",
+    "ariaLabel": "ตรวจสอบเภสัชกรที่สภาเภสัชกรรม"
+  },
+  {
+    "imgSrc": "_media/mt.webp",
+    "imgAlt": "สภาเทคนิคการแพทย์",
+    "title": "นักเทคนิคการแพทย์",
+    "subtitle": "ตรวจสอบกับฐานข้อมูล<br>สภาเทคนิคการแพทย์",
+    "link": "https://mtc-webservices.herokuapp.com/members/search",
+    "ariaLabel": "ตรวจสอบนักเทคนิคการแพทย์ที่สภาเทคนิคการแพทย์"
+  },
+  {
+    "imgSrc": "_media/tt.webp",
+    "imgAlt": "สภาการแพทย์แผนไทย",
+    "title": "แพทย์แผนไทย",
+    "subtitle": "ตรวจสอบกับฐานข้อมูล<br> สภาการแพทย์แผนไทย",
+    "link": "https://thaimed.thaijobjob.com/Regis/",
+    "ariaLabel": "ตรวจสอบแพทย์แผนไทยที่สภาการแพทย์แผนไทย"
+  },
+  {
+    "imgSrc": "_media/sc.webp",
+    "imgAlt": "สภาวิชาชีพสังคมสงเคราะห์",
+    "title": "นักสังคมสงเคราะห์",
+    "subtitle": "ตรวจสอบกับฐานข้อมูล<br> สภาวิชาชีพสังคมสงเคราะห์",
+    "link": "https://swpc.or.th/checkmember.php",
+    "ariaLabel": "ตรวจสอบนักสังคมสงเคราะห์ที่สภาวิชาชีพสังคมสงเคราะห์"
+  },
+  {
+    "imgSrc": "_media/hss.png",
+    "imgAlt": "นักกำหนดอาหาร",
+    "title": "นักกำหนดอาหาร",
+    "subtitle": "ตรวจสอบกับฐานข้อมูล  <br>กรมสนับสนุนบริการสุขภาพ",
+    "link": "https://mrd.hss.moph.go.th/mrd1_hss/?p=5556",
+    "ariaLabel": "ตรวจสอบนักกำหนดอาหาร"
+  },
+  {
+    "imgSrc": "_media/hss.png",
+    "imgAlt": "นักแก้ไขความผิดปกติของการสื่อความหมาย",
+    "title": "นักแก้ไขความผิดปกติของการสื่อความหมาย",
+    "subtitle": "ตรวจสอบกับฐานข้อมูล  <br>กรมสนับสนุนบริการสุขภาพ",
+    "link": "https://mrd.hss.moph.go.th/mrd1_hss/?p=5556",
+    "ariaLabel": "ตรวจสอบนักแก้ไขความผิดปกติของการสื่อความหมาย"
+  },
+  {
+    "imgSrc": "_media/hss.png",
+    "imgAlt": "แพทย์แผนจีน",
+    "title": "แพทย์แผนจีน",
+    "subtitle": "ตรวจสอบกับฐานข้อมูล  <br>กรมสนับสนุนบริการสุขภาพ",
+    "link": "https://mrd.hss.moph.go.th/mrd1_hss/?p=5556",
+    "ariaLabel": "ตรวจสอบแพทย์แผนจีน"
+  },
+  {
+    "imgSrc": "_media/hss.png",
+    "imgAlt": "นักกายอุปกรณ์",
+    "title": "นักกายอุปกรณ์",
+    "subtitle": "ตรวจสอบกับฐานข้อมูล  <br>กรมสนับสนุนบริการสุขภาพ",
+    "link": "https://mrd.hss.moph.go.th/mrd1_hss/?p=5556",
+    "ariaLabel": "ตรวจสอบนักกายอุปกรณ์"
+  },
+  {
+    "imgSrc": "_media/hss.png",
+    "imgAlt": "นักกิจกรรมบำบัด",
+    "title": "นักกิจกรรมบำบัด",
+    "subtitle": "ตรวจสอบกับฐานข้อมูล  <br>กรมสนับสนุนบริการสุขภาพ",
+    "link": "https://mrd.hss.moph.go.th/mrd1_hss/?p=5556",
+    "ariaLabel": "ตรวจสอบนักกิจกรรมบำบัด"
+  },
+  {
+    "imgSrc": "_media/hss.png",
+    "imgAlt": "นักจิตวิทยาคลินิก",
+    "title": "นักจิตวิทยาคลินิก",
+    "subtitle": "ตรวจสอบกับฐานข้อมูล  <br>กรมสนับสนุนบริการสุขภาพ",
+    "link": "https://mrd.hss.moph.go.th/mrd1_hss/?p=5556",
+    "ariaLabel": "ตรวจสอบนักจิตวิทยาคลินิก"
+  },
+  {
+    "imgSrc": "_media/hss.png",
+    "imgAlt": "นักฉุกเฉินการแพทย์",
+    "title": "นักฉุกเฉินการแพทย์",
+    "subtitle": "ตรวจสอบกับฐานข้อมูล  <br>กรมสนับสนุนบริการสุขภาพ",
+    "link": "https://mrd.hss.moph.go.th/mrd1_hss/?p=5556",
+    "ariaLabel": "ตรวจสอบนักฉุกเฉินการแพทย์"
+  },
+  {
+    "imgSrc": "_media/hss.png",
+    "imgAlt": "นักเทคโนโลยีหัวใจ และทรวงอก",
+    "title": "นักเทคโนโลยีหัวใจ และทรวงอก",
+    "subtitle": "ตรวจสอบกับฐานข้อมูล  <br>กรมสนับสนุนบริการสุขภาพ",
+    "link": "https://mrd.hss.moph.go.th/mrd1_hss/?p=5556",
+    "ariaLabel": "ตรวจสอบนักเทคโนโลยีหัวใจ และทรวงอก"
+  },
+  {
+    "imgSrc": "_media/hss.png",
+    "imgAlt": "นักรังสีเทคนิค",
+    "title": "นักรังสีเทคนิค",
+    "subtitle": "ตรวจสอบกับฐานข้อมูล  <br>กรมสนับสนุนบริการสุขภาพ",
+    "link": "https://mrd.hss.moph.go.th/mrd1_hss/?p=5556",
+    "ariaLabel": "ตรวจสอบนักรังสีเทคนิค"
+  }
+]

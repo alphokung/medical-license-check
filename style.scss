@@ -233,7 +233,7 @@ svg {
 .hero {
   position: relative;
   background-color: var(--bg-card);
-  min-height: calc(100dvh - 60px); // full viewport minus header
+  min-height: calc(90dvh - 60px); // full viewport minus header
   display: flex;
   flex-direction: column;
   align-items: center;
