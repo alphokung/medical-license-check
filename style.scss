@@ -303,7 +303,7 @@ svg {
   align-items: center;
   gap: var(--sp-sm);
   color: var(--text-tertiary);
-  font-size: var(--fs-body-s);
+  font-size: var(--fs-body-m);
   font-weight: 500;
   text-decoration: none;
   animation: fade-in-up 0.55s 0.5s ease both, bounce-y 2.4s 1.2s ease-in-out infinite;
@@ -544,15 +544,15 @@ svg {
 }
 
 .prof-card__title {
-  font-size: var(--fs-title-m);
+  font-size: var(--fs-title-l);
   font-weight: 700;
   color: var(--text-default);
-  line-height: var(--lh-title-m);
+  line-height: var(--lh-title-l);
   margin-bottom: var(--sp-xxs);
 }
 
 .prof-card__subtitle {
-  font-size: var(--fs-body-s);
+  font-size: var(--fs-body-m);
   color: var(--text-tertiary);
   line-height: var(--lh-body-m);
 }
