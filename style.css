@@ -356,7 +356,7 @@ svg {
 }
 
 .services__subheading {
-  font-size: var(--fs-body-m);
+  font-size: var(--fs-body-l);
   color: var(--text-tertiary);
   margin-bottom: var(--sp-4xl);
 }
