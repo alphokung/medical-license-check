@@ -509,7 +509,7 @@ svg {
 }
 
 .disclaimer {
-  padding-block: var(--sp-3xl) var(--sp-8xl);
+  padding-block: var(--sp-3xl);
   text-align: center;
 }
 
