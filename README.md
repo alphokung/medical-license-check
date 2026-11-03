@@ -3,7 +3,7 @@
 A public service landing page that provides a centralized hub for Thai citizens to verify medical professionals' licenses across various health councils. It connects directly to official sources without requiring user registration and advertises the "Thang Rath" Super App.
 
 ## Features
-- **Centralized Verification**: Links to official verification pages for doctors, dentists, nurses, pharmacists, physical therapists, medical technologists, Thai traditional medicine practitioners, and social workers.
+- **Centralized Verification**: Links to official verification pages for doctors, dentists, nurses, pharmacists, physical therapists, medical technologists, Thai traditional medicine practitioners, social workers, and veterinarians.
 - **Privacy First**: No personal data is stored or processed on this portal.
 - **Free to Use**: Instant access without any membership or login requirements.
 - **Thang Rath App Promotion**: Includes a prominent call-to-action encouraging citizens to download the Thang Rath Super App for access to over 400+ government services.
