@@ -64,6 +64,14 @@
     "ariaLabel": "ตรวจสอบนักสังคมสงเคราะห์ที่สภาวิชาชีพสังคมสงเคราะห์"
   },
   {
+    "imgSrc": "_media/vt.webp",
+    "imgAlt": "สัตวแพทยสภา",
+    "title": "สัตวแพทย์",
+    "subtitle": "ตรวจสอบกับฐานข้อมูล<br> สัตวแพทยสภา",
+    "link": "https://vetcouncil.or.th/search-result",
+    "ariaLabel": "ตรวจสอบสัตวแพทย์ที่สัตวแพทยสภา"
+  },
+  {
     "imgSrc": "_media/hss.png",
     "imgAlt": "นักกำหนดอาหาร",
     "title": "นักกำหนดอาหาร",
